@@ -71,19 +71,23 @@ Train a machine learning model
 Evaluate performance
 Improve results using hyperparameter tuning
 🔄 Workflow
+
 ✅ Data Preprocessing
 Loaded and checked dataset
 Converted categorical data into numeric format
 Prepared features for model training
+
 ✅ Model Training
 Used Logistic Regression
 Training Data: 80%
 Testing Data: 20%
+
 ✅ Evaluation Results
 Accuracy: 89.17%
 Precision: 87.07%
 Recall: 89.17%
 F1 Score: 87.07%
+
 ✅ Hyperparameter Tuning
 
 Applied:
@@ -101,15 +105,19 @@ Personal loans negatively affected subscriptions.
 To analyze banking customer data using Spark and generate useful business insights.
 
 📌 Tasks Performed
+
 ✅ Data Inspection
 Loaded dataset
 Checked schema and summary statistics
+
 ✅ Filtering & Transformations
 Filtered clients with balance greater than 1000
 Added quarter column based on month
+
 ✅ Aggregation
 Average balance by job type
 Count of subscribed clients by marital status
+
 ✅ UDF Implementation
 
 Created custom age groups:
@@ -117,9 +125,11 @@ Created custom age groups:
 Below 30
 30–60
 Above 60
+
 ✅ Advanced Analysis
 Subscription rate by education level
 Default rates by profession
+
 ✅ Visualization
 
 Used:
@@ -141,6 +151,7 @@ FILE 4 – Real-Time Machine Learning with Spark Streaming
 📌 Project Overview
 
 This project simulates live banking transaction analysis using Spark Structured Streaming.
+
 
 ✅ Tasks Completed
 1️⃣ Streaming Data Processing
@@ -188,6 +199,7 @@ Python
 Pandas
 Google Colab
 Matplotlib
+
 ✅ Final Conclusion
 
 These projects demonstrate how Apache Spark and related tools can efficiently process and analyze large-scale banking datasets. Using Spark’s distributed processing, machine learning, and streaming capabilities, meaningful business insights and prediction models were successfully developed for banking marketing campaigns.
