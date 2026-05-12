@@ -24,15 +24,18 @@ PySpark (Spark SQL & MLlib)
 Python
 Google Colab
 🚀 Work Done in the Project
+
 1️⃣ Data Loading & Partitioning
 Loaded the bank.csv dataset into Spark DataFrame.
 Used repartition() on the job column to improve parallel processing speed.
+
 2️⃣ Parallel Data Analysis
 Calculated average account balance for different job categories using groupBy() and avg().
 Created age groups and identified which age category had the highest number of personal loans.
 📊 Main Finding
 People between 30–39 years had the highest number of personal loans.
 Retired and student clients showed higher average balances.
+
 3️⃣ Machine Learning with Spark ML
 
 Built a Logistic Regression model to predict whether a client will subscribe to a term deposit.
@@ -42,6 +45,7 @@ Split data into training and testing sets.
 Converted categorical columns using StringIndexer.
 Combined features using VectorAssembler.
 Trained the model using Spark MLlib.
+
 4️⃣ Model Evaluation
 
 The model performance was checked using:
@@ -57,6 +61,7 @@ The Logistic Regression model performed well and successfully predicted customer
 5️⃣ Resource Monitoring
 Used the psutil library to monitor CPU and memory usage.
 Observed higher CPU usage during Spark parallel execution while memory usage stayed efficient.
+
 6️⃣ Task Scheduling in Spark
 Spark’s DAG Scheduler automatically managed task execution.
 Lazy evaluation helped optimize processing and improve performance.
@@ -70,6 +75,7 @@ Preprocess banking data
 Train a machine learning model
 Evaluate performance
 Improve results using hyperparameter tuning
+
 🔄 Workflow
 
 ✅ Data Preprocessing
@@ -147,6 +153,7 @@ Management was the most common job type.
 Cellular contact method gave better campaign success.
 Credit default cases were very low.
 FILE 4 – Real-Time Machine Learning with Spark Streaming
+
 🔄 Real-Time Banking Analysis using Spark Streaming
 📌 Project Overview
 
@@ -154,19 +161,23 @@ This project simulates live banking transaction analysis using Spark Structured 
 
 
 ✅ Tasks Completed
+
 1️⃣ Streaming Data Processing
 Split bank.csv into chunks
 Simulated real-time streaming input
 Calculated live average balances and durations
+
 2️⃣ Real-Time Predictions
 Trained a machine learning model using historical data
 Used the model to generate live predictions on streaming data
+
 3️⃣ Window Operations
 
 Analyzed trends using:
 
 10-second windows
 1-minute windows
+
 4️⃣ Handling Late Data
 Applied watermarking
 Managed delayed and out-of-order records efficiently
